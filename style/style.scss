@@ -1,0 +1,44 @@
+html {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+}
+.gallery-parent {
+  margin: 0 auto;
+  height: 60rem;
+  width: 40rem;
+}
+.gallery {
+  position: relative;
+}
+.panda-photo {
+  height: 20rem;
+  position: absolute;
+  transition: all 0.3s;
+  outline-offset: 1rem;
+}
+.panda1 {
+  top: 10rem;
+  left: 15%;
+}
+.panda2 {
+  top: 10rem;
+  left: 15%;
+}
+.panda3 {
+  top: 10rem;
+  left: 15%;
+}
+.panda-photo:hover {
+  transform: scale(1.5);
+  outline: 1rem solid rgb(187, 2, 233);
+  z-index: 2;
+}
+.gallery:hover .panda-photo:not(:hover){
+    transform: scale(0.5);
+    opacity: 0.5;
+}

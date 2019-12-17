@@ -1,0 +1,58 @@
+html {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+.gallery-parent {
+  margin: 0 auto;
+  height: 60rem;
+  width: 40rem;
+}
+
+.gallery {
+  position: relative;
+}
+
+.panda-photo {
+  height: 20rem;
+  position: absolute;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  outline-offset: 1rem;
+}
+
+.panda1 {
+  top: 10rem;
+  left: 15%;
+}
+
+.panda2 {
+  top: 10rem;
+  left: 15%;
+}
+
+.panda3 {
+  top: 10rem;
+  left: 15%;
+}
+
+.panda-photo:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  outline: 1rem solid #bb02e9;
+  z-index: 2;
+}
+
+.gallery:hover .panda-photo:not(:hover) {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  opacity: 0.5;
+}
+/*# sourceMappingURL=style.css.map */
