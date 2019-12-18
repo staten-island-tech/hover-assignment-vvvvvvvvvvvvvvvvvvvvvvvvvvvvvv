@@ -1,0 +1,36 @@
+.gallery-parent {
+    margin: 0 auto;
+    height: 60rem;
+    width: 40rem;
+  }
+  .gallery {
+    position: relative;
+  }
+  .panda-photo {
+    height: 20rem;
+    position: absolute;
+    transition: all 0.3s;
+    outline-offset: 1rem;
+  }
+  .panda1 {
+    top: 28rem;
+    left: 35%;
+  }
+  .panda2 {
+    top: 10rem;
+    left: 15%;
+  }
+  .panda3 {
+    top: 22rem;
+    left: -30%;
+  }
+  .panda-photo:hover {
+    transform: scale(1.5);
+    outline: 1rem solid rgb(14, 63, 29);
+    z-index: 2;
+  }
+  .gallery:hover .panda-photo:not(:hover){
+      transform: scale(0.8);
+      opacity: 0.5;
+  }
+  

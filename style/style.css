@@ -29,8 +29,8 @@ body {
 }
 
 .panda1 {
-  top: 10rem;
-  left: 15%;
+  top: 28rem;
+  left: 35%;
 }
 
 .panda2 {
@@ -39,20 +39,20 @@ body {
 }
 
 .panda3 {
-  top: 10rem;
-  left: 15%;
+  top: 22rem;
+  left: -30%;
 }
 
 .panda-photo:hover {
   -webkit-transform: scale(1.5);
           transform: scale(1.5);
-  outline: 1rem solid #bb02e9;
+  outline: 1rem solid #0e3f1d;
   z-index: 2;
 }
 
 .gallery:hover .panda-photo:not(:hover) {
-  -webkit-transform: scale(0.5);
-          transform: scale(0.5);
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
   opacity: 0.5;
 }
 /*# sourceMappingURL=style.css.map */
