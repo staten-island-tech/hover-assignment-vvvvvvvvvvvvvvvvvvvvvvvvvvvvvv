@@ -1,3 +1,6 @@
+@import "./tintedbunny.scss";
+@import "./3zoompandas.scss";
+
 html {
   padding: 0;
   margin: 0;
@@ -9,6 +12,17 @@ body {
 }
 
 
+.child {
+  height: 20rem;
+}
 
-@import "./3zoompandas"
+.child:hover {
+    transform: rotate(20deg);
+}
+
+.child:not(:hover) {
+    filter: grayscale(100%);
+}
+
+
 
