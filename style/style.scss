@@ -1,4 +1,4 @@
-@import "./tintedbunny.scss";
+@import "./demonbunny.scss";
 @import "./3zoompandas.scss";
 
 html {
@@ -11,18 +11,6 @@ body {
   text-align: center;
 }
 
-
-.child {
-  height: 20rem;
-}
-
-.child:hover {
-    transform: rotate(20deg);
-}
-
-.child:not(:hover) {
-    filter: grayscale(100%);
-}
 
 
 

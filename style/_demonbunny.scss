@@ -1,0 +1,31 @@
+.child {
+    position: relative;
+}
+
+.bunbun {
+    height: 20rem;
+    position: absolute;
+}
+
+.notdemon {
+    z-index: 1;
+}
+.demon {
+    z-index: 2;
+}
+
+.demon:hover {
+    opacity: 100%;
+}
+
+.demon:not(:hover) {
+    opacity: 0%;
+}
+
+.notdemon:hover {
+    opacity: 0%;
+}
+
+.notdemon:not(:hover) {
+    opacity: 100%;
+}
