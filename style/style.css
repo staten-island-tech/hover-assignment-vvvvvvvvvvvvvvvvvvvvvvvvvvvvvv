@@ -1,13 +1,33 @@
-html {
-  padding: 0;
-  margin: 0;
-  font-size: 62.5%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+.parent {
+  position: relative;
+  height: 90rem;
 }
 
-body {
-  text-align: center;
+.child {
+  position: absolute;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.notdemon {
+  z-index: 2;
+}
+
+.demon:hover {
+  opacity: 100%;
+}
+
+.demon:not(:hover) {
+  opacity: 0%;
+}
+
+.notdemon:hover {
+  opacity: 0%;
+}
+
+.notdemon:not(:hover) {
+  opacity: 100%;
 }
 
 .gallery-parent {
@@ -54,5 +74,17 @@ body {
   -webkit-transform: scale(0.8);
           transform: scale(0.8);
   opacity: 0.5;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
