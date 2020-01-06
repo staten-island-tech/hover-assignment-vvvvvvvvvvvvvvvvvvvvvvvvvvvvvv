@@ -83,15 +83,31 @@
   opacity: 0.5;
 }
 
+.buttonmom {
+  position: absolute;
+  width: 50rem;
+  height: 10rem;
+  background-color: black;
+  left: 67.5rem;
+}
+
 .button {
   display: inline-block;
+  color: white;
+  position: relative;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  font-size: 310%;
+  top: -2.5rem;
 }
 
 .button:hover {
-  -webkit-transform: translateY(10rem);
-          transform: translateY(10rem);
+  -webkit-transform: translateY(20rem);
+          transform: translateY(20rem);
+}
+
+.sizecontrolforbutton {
+  height: 100rem;
 }
 
 html {
