@@ -1,16 +1,25 @@
 .parent {
-  position: relative;
-  height: 90rem;
+    margin: 0 auto;
+    height: 60rem;
+    width: 40rem;
 }
 
 .child {
-  position: absolute;
-  align-self: center;
-}
+    position: relative;
+  }
 
-.notdemon {
+  .bunbun {
+    text-align: center;
+    height: 40rem;
+    position: absolute;
+    transition: all 0.15s;
+    left: -9rem;
+  }
+
+.demon {
   z-index: 2;
 }
+
 
 .demon:hover {
   opacity: 100%;

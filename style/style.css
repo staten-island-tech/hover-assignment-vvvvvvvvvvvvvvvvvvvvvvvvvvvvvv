@@ -1,16 +1,23 @@
 .parent {
-  position: relative;
-  height: 90rem;
+  margin: 0 auto;
+  height: 60rem;
+  width: 40rem;
 }
 
 .child {
-  position: absolute;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  position: relative;
 }
 
-.notdemon {
+.bunbun {
+  text-align: center;
+  height: 40rem;
+  position: absolute;
+  -webkit-transition: all 0.15s;
+  transition: all 0.15s;
+  left: -9rem;
+}
+
+.demon {
   z-index: 2;
 }
 
@@ -74,6 +81,17 @@
   -webkit-transform: scale(0.8);
           transform: scale(0.8);
   opacity: 0.5;
+}
+
+.button {
+  display: inline-block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.button:hover {
+  -webkit-transform: translateY(10rem);
+          transform: translateY(10rem);
 }
 
 html {
