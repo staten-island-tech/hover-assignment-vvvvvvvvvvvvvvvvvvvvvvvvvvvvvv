@@ -6,6 +6,7 @@
 
 .child {
     position: relative;
+    margin: 0 auto;
   }
 
   .bunbun {
@@ -13,7 +14,9 @@
     height: 40rem;
     position: absolute;
     transition: all 0.15s;
-    left: -9rem;
+    margin: 0 auto;
+    display: flex;
+    left: -6rem;
   }
 
 .demon {
@@ -36,3 +39,7 @@
 .notdemon:not(:hover) {
   opacity: 100%;
 }
+
+.center {
+    flex-direction: column;
+  }
