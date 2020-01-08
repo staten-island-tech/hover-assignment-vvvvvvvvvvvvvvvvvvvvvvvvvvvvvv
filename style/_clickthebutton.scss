@@ -3,6 +3,7 @@
     height: 10rem;
     background-color: black;
     margin: 0 auto;
+    border-radius: 4rem;
 }
 
 .button {
@@ -12,7 +13,6 @@
     transition: 0.3s;
     font-size: 310%;
     top: 1.5rem;
-    border-radius: 5rem;
 }
 
 .button:hover {
