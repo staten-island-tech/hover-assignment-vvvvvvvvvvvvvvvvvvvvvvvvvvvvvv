@@ -1,15 +1,15 @@
 .rollingball{
-    height: 70rem;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.hill {
-    height: 35rem;
-}
-
 .ball{
     height: 10rem;
-    position: absolute;
-    left: 10rem;
-    top: 25rem;
     z-index: 2;
+}
+.hill{
+    width: 50rem;
+}
+.hilldiv{
+    width: 100%;
 }

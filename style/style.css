@@ -124,20 +124,29 @@
 }
 
 .rollingball {
-  height: 70rem;
-  position: relative;
-}
-
-.hill {
-  height: 35rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .ball {
   height: 10rem;
-  position: absolute;
-  left: 10rem;
-  top: 25rem;
   z-index: 2;
+}
+
+.hill {
+  width: 50rem;
+}
+
+.hilldiv {
+  width: 100%;
 }
 
 html {
