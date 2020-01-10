@@ -162,12 +162,10 @@
 }
 
 .ball:hover {
-  -webkit-transform: rotate(1080deg);
-          transform: rotate(1080deg);
+  -webkit-transform: translate(45rem, -30%) rotate(1440deg);
+          transform: translate(45rem, -30%) rotate(1440deg);
   -webkit-transition: 3s;
   transition: 3s;
-  -webkit-animation: 3s linear 1s 1 normal forwards;
-          animation: 3s linear 1s 1 normal forwards;
 }
 
 html {
