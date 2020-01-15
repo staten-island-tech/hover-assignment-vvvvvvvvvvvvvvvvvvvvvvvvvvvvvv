@@ -25,5 +25,6 @@ height: 20rem;
 
 .ball:hover{
   transform: translate(45rem, -30%) rotate(1440deg);
-  transition: 3s;
+  transition: 13s;
+  transform-origin: center;
 }

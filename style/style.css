@@ -164,8 +164,124 @@
 .ball:hover {
   -webkit-transform: translate(45rem, -30%) rotate(1440deg);
           transform: translate(45rem, -30%) rotate(1440deg);
-  -webkit-transition: 3s;
-  transition: 3s;
+  -webkit-transition: 13s;
+  transition: 13s;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+}
+
+.teletubby:hover {
+  -webkit-transform: scale(3.5);
+          transform: scale(3.5);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.teletubby {
+  z-index: 3;
+}
+
+.satanism {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5rem;
+}
+
+.movingpanda {
+  -webkit-animation-name: pandathatmoves;
+          animation-name: pandathatmoves;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+@-webkit-keyframes pandathatmoves {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  20% {
+    -webkit-transform: rotate(72deg);
+            transform: rotate(72deg);
+  }
+  40% {
+    -webkit-transform: rotate(144deg);
+            transform: rotate(144deg);
+  }
+  60% {
+    -webkit-transform: rotate(216deg);
+            transform: rotate(216deg);
+  }
+  80% {
+    -webkit-transform: rotate(288deg);
+            transform: rotate(288deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes pandathatmoves {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  20% {
+    -webkit-transform: rotate(72deg);
+            transform: rotate(72deg);
+  }
+  40% {
+    -webkit-transform: rotate(144deg);
+            transform: rotate(144deg);
+  }
+  60% {
+    -webkit-transform: rotate(216deg);
+            transform: rotate(216deg);
+  }
+  80% {
+    -webkit-transform: rotate(288deg);
+            transform: rotate(288deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes pandathatmoves {
+  0% {
+    left: 0px, 0;
+  }
+  20% {
+    left: 10px, 0;
+  }
+  40% {
+    left: 20px, 0;
+  }
+  60% {
+    left: 30px, 0;
+  }
+  80% {
+    left: 40px, 0;
+  }
+  100% {
+    left: 50px, 0;
+  }
 }
 
 html {

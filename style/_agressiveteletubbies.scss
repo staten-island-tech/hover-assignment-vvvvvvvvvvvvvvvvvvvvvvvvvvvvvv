@@ -1,0 +1,16 @@
+.teletubby:hover {
+    transform: scale(3.5);
+    transition: 0.5s;
+}
+
+.teletubby {
+   z-index: 3;
+}
+
+.satanism{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem;
+}
